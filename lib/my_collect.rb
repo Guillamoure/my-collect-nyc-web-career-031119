@@ -3,7 +3,7 @@ def my_collect(x)
   j =[]
   while (i < x.length)
     yield(x[i])
-    j.push{x[i]
+    j.push(x[i]
     i += 1
   end
   return j
